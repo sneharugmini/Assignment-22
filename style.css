@@ -1,0 +1,132 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a default font and line-height */
+  body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Default text color */
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styling the header section */
+  .blog-header {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-color: #333; /* Dark grey background */
+    color: #fff; /* White text color */
+    padding: 1rem; /* Add some padding to the header */
+  }
+  
+  .blog-header-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  /* Styling the navigation bar */
+  .nav-scroller {
+    background-color: #444; /* Slightly lighter than header */
+  }
+  
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .nav a {
+    color: #fff; /* White text color */
+    padding: 0.5rem;
+  }
+  
+  /* Styling the jumbotron section */
+  .jumbotron {
+    background-color: #0b0000; /* Darker grey background */
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(167, 169, 169);
+  }
+  
+  .jumbotron a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+  }
+  
+  /* Styling the blog posts */
+  .blog-post {
+    margin-bottom: 2rem;
+  }
+  
+  .blog-post-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .blog-post-meta {
+    color: #494848; /* Grey text color */
+  }
+  
+  /* Styling the card section */
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+  
+  .card-body {
+    flex: 1;
+  }
+  
+  img {
+    width: 350px;
+  }
+  
+  /* Styling the pagination buttons */
+  .blog-pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blog-pagination a {
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    background-color: #444; /* Darker grey background */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 0.25rem;
+  }
+  
+  /* Hover and active state for buttons */
+  .blog-pagination a:hover,
+  .blog-pagination a:focus,
+  .blog-pagination a:active {
+    background-color: #333; /* Slightly darker on hover/focus/active */
+  }
+  
+  /* Styling the footer section */
+  .blog-footer {
+    text-align: center;
+    background-color: #333; /* Dark grey background */
+    color: #fff; /* White text color */
+    padding: 1rem;
+  }
+  
+  .blog-footer a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+  }
+  
+  .blog-footer a:hover,
+  .blog-footer a:focus {
+    text-decoration: underline;
+  }
